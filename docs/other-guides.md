@@ -1,5 +1,3 @@
-
-```markdown
 # DHCP Configuration
 
 ### Edit DHCP server configuration:
@@ -205,5 +203,4 @@ MaxSessions 10
 Save and restart the SSH service:
 ```bash
 sudo systemctl restart sshd
-```
 ```
