@@ -192,7 +192,7 @@ sudo apt install apache2 squid openssl keepalived psmisc ssl-cert
     #disable memory pools
     memory_pools off
 
-    http_port 80 accel defaultsite=192.168.56.10
+    http_port 80 accel defaultsite=192.168.56.30
     # Please, note the following should be in a single line
     https_port 443 accel cert=/etc/ssl/certs/ssl-cert-snakeoil.pem key=/etc/ssl/private/ssl-cert-snakeoil.key defaultsite=192.168.56.30
 
